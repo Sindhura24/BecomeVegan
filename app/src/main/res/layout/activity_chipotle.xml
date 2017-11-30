@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9967a"
+    tools:context="becomevegan.com.becomevegan.Chipotle">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:text="Vegan Sub   -   $6"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="44dp"
+        android:text="Vegan Soup  -   $5"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:text="Vegan Salad  - $7"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+</LinearLayout>
